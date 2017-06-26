@@ -1,4 +1,4 @@
 # practice
 
 for practice purpose i am editing READ ME file.
-This is second time edit.
+this is 2nd edit for ReadMe
