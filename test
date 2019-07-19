@@ -1,0 +1,74 @@
+DevInterview Developer Interview Questions:
+Design / Architecture
+Describe the high level architecture of the last system you worked on
+
+Have them use the white board. You are looking for a good big picture understanding of how the entire system was put together. It is important to establish if you have a big picture thinker or a more task oriented tunnel-vision developer that only understands small slices of the system they work on. You are also trying to establish whether they can communicate technical concepts effectively.
+
+Describe some of the characteristics of a well designed system
+
+You might expect responses about coupling, cohesion, encapsulation, etc. Basically you are trying to establish if there is a rationale behind how this person might try to decide on various design options.
+
+Describe a specific example of a "poor" design you have seen
+
+This is another way to arrive at the general thinking processes and experience they have in design. You are looking for a thoughtful answer that has a basis in generally accepted design patterns. Asking the negative question may be easier for some then trying to poitn out an exceptionally good design since it is fairly subjective at times.
+
+Java
+What is the difference between an Interface and an Abstract class?
+
+In abstract class you can define as well as declare methods, the methods which are declared are to be marked as abstract. In interface all we just declare methods and the definition is provided by the class which is implementing it
+
+What is the difference between String and StringBuffer?
+
+Difference between SAX and DOM parser?
+
+DOM parsers are Object based and SAX parsers are event based DOM parsers creates Tree in the memory whereas SAX parser does not and hence it is faster than DOM DOM parser are useful when we have to modify the XML, with SAX parser you cannot modify the xml, it is read only
+
+What is instanceOf operator used for?
+
+It is used to if an object can be cast into a specific type without throwing Class cast exception
+
+How is an argument passed in java, by copy or by reference?
+
+If the variable is primitive datatype then it is passed by copy. If the variable is an object then it is passed by reference
+
+What is synchronized modifier used for?
+
+It is used to control access of critical code in multithreaded programs
+
+What are checked exception?
+
+Checked exceptions are exceptions that arise in a correct program, typically due to user mistakes like entering wrong data or I/O problems
+
+What are runtime exceptions?
+
+Runtime exceptions are due to programming bugs like out of bond arrays or null pointer exceptions.
+
+What is JVM?
+
+When we install a java package. It contains 2 things
+
+The Java Runtime Environment (JRE)
+The Java Development Kit (JDK)
+The JRE provides runtime support for Java applications. The JDK provides the Java compiler and other development tools. The JDK includes the JRE.
+
+Both the JRE and the JDK include a Java Virtual Machine (JVM). This is the application that executes a Java program. A Java program requires a JVM to run on a particular platform
+
+EJB (or other component technologies)
+What are the characteristic of a transaction?
+
+Looking for an understanding of the fundamental concept of a transaction (ACID)
+
+What is a typical pattern for handling transactions using this framework?
+
+Looking for patterns that clearly establish the boundary for starting and ending a transaction as well as how exception handling affects transactions.
+
+JDBC
+What is the collection of classes you would use to execute a query and process results?
+
+PreparedStatement, Statement, ResultSet, etc. Really just looking to verify they actually have used it before.
+
+SQL and Databases
+(What level of SQL experience does the candidate have, can they handle complex SQL, have they had to consider performance of queries in a larger highly concurrent system...)
+
+Hibernate
+(Determine of the candidate understands the concept of object-relational mapping or if not try to determine if they have the aptitude to pick it up)
